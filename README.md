@@ -9,3 +9,9 @@
 <p align="center">
   <img src="./Images/main_1.png" width="700" title="">
 </p>
+
+**Sample images generated from [DCT augmentation](https://ieeexplore.ieee.org/abstract/document/8803787).**
+
+<p align="center">
+  <img src="./Images/main_1.png" width="700" title="">
+</p>
