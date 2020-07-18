@@ -13,13 +13,13 @@
 **Sample images generated from [DCT augmentation](https://ieeexplore.ieee.org/abstract/document/8803787).**
 
 <p align="center">
-  <img src="./Images/DCT.png" width="600" title="">
+  <img src="./Images/DCT.png" width="400" title="">
 </p>
 
 **Proposed feature and decision space visualization process.**
 
 <p align="center">
-  <img src="./Images/only2FC_v4.png" width="600" title="">
+  <img src="./Images/only2FC_v4.png" width="350" title="">
 </p>
 
 **Experimental evaluation.**
