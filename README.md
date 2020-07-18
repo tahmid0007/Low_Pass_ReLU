@@ -3,7 +3,9 @@
 <p align="center">
   <img src="./Images/AFs2.png" width="700" title="Activation Functions">
 </p>
+
 **Visual Illustration of how the proposed LP-ReLU impacts the CNN feature space compared to ReLU.**
+
 <p align="center">
   <img src="./Images/main_1.png" width="700" title="">
 </p>
