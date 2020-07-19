@@ -10,7 +10,7 @@ LP-ReLU is identical to ReLU upto a certain X value and scaled down afterwards (
 **Visual Illustration of how the proposed LP-ReLU impacts the CNN feature space compared to ReLU:**
 ReLU encourages sparsity whereas LP-ReLU enforces compactness in the feature space. Corrupted data tend to exploit sparsity leading to misclassify an input even when the corruption is visually imperceptible. Compactness in LP-ReLU network, on the other hand, makes it hard for corrupted features to drift away from where they belong. LP-ReLU is specially effective aganst High Frequency corruptions, e.g., Gaussian noise, impulse noise etc. To safeguard against low frequency corruptions like Gaussian or defocus blur, we resort to [DCT augmentation](https://ieeexplore.ieee.org/abstract/document/8803787). LP-ReLU + DCT augmentation provides measured sparsity at the center and enhanced compactness towards the perimeter.
 <p align="center">
-  <img src="./Images/main.gif" width="700" title="">
+  <img src="./Images/main_gif.gif" width="700" title="">
 </p>
 
 **Sample images generated from [DCT augmentation](https://ieeexplore.ieee.org/abstract/document/8803787):**
