@@ -37,7 +37,7 @@ CIFAR-10-P and Tiny ImageNet-P
   <img src="./Images/hor_bar_collage_2.png" width="400" title="">
 </p>
 
-**Code guide**
+# Code guide
 - Train.m is the main file to train a network from scratch.
 - myresidualCIFARlgraph.m returns the desired WRN based on the arguments defined in the paper.
 - LPrelu_1_Layer.m and LPrelu_1_Layer.m repesent the LP-ReLU variants proposed in the paper.
@@ -46,4 +46,4 @@ CIFAR-10-P and Tiny ImageNet-P
 - Corruption evaluation Datasets can be found [here](https://zenodo.org/record/2535967#.XxPOtCgza70) and perturbation stability datasets can be found [here](https://zenodo.org/record/2469796#.XxPPFigza70).
 - LeNet_only_2FC.m and only2FC.m are used for feature and decision space visualization.
 
-**Cite this work**
+# Cite this work
