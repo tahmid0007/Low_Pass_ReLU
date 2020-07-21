@@ -51,3 +51,11 @@ CIFAR-10-P and Tiny ImageNet-P
 - Click [here](https://arxiv.org/abs/2007.09453).
 
 # Cite this work
+@misc{hossain2020robust,
+    title={Robust Image Classification Using A Low-Pass Activation Function and DCT Augmentation},
+    author={Md Tahmid Hossain and Shyh Wei Teng and Ferdous Sohel and Guojun Lu},
+    year={2020},
+    eprint={2007.09453},
+    archivePrefix={arXiv},
+    primaryClass={cs.CV}
+}
