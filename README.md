@@ -1,4 +1,4 @@
-# Robust Image Classification Using A Low-Pass Activation Function and DCT Augmentation
+# [Robust Image Classification Using A Low-Pass Activation Function and DCT Augmentation](https://arxiv.org/abs/2007.09453)
 By far, ReLU is the most widely used Activation Function in deep Convolutional Neural Networks. ReLU is simple to implement and enables deep networks to converge to training data. However, ReLU-based networks do not exhibit satisfactory robustness against corrupted data, e.g., an image with negligible noise or blur is often misclassified. Common signal processing fix to data corruption is filtering. Inspired from this, we update the existing ReLU by incorporating a built-in Low-Pass filtering mechanism (we call it LP-ReLU). We further enhance LP-ReLU's effectivenes through [DCT augmentation](https://ieeexplore.ieee.org/abstract/document/8803787).
 
 **Different activation functions and their derivatives. The proposed Low-Pass ReLU or LP-ReLU is highlighted inside the box:**
