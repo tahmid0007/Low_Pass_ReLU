@@ -1,5 +1,5 @@
 # [Robust Image Classification Using A Low-Pass Activation Function and DCT Augmentation](https://arxiv.org/abs/2007.09453)
-By far, ReLU is the most widely used Activation Function in deep Convolutional Neural Networks. ReLU is simple to implement and enables deep networks to converge to training data. However, ReLU-based networks do not exhibit satisfactory robustness against corrupted data, e.g., an image with negligible noise or blur is often misclassified. Common signal processing fix to data corruption is filtering. Inspired from this, we update the existing ReLU by incorporating a built-in Low-Pass filtering mechanism (we call it LP-ReLU). We further enhance LP-ReLU's effectivenes through [DCT augmentation](https://ieeexplore.ieee.org/abstract/document/8803787).
+By far, ReLU is the most widely used Activation Function in deep Convolutional Neural Networks. ReLU is simple to implement and enables deep networks to converge to training data. However, ReLU-based networks do not exhibit satisfactory robustness against corrupted data, e.g., an image with negligible noise or blur is often misclassified. Common signal processing fix to data corruption is filtering. Inspired from this, we update the existing ReLU by incorporating a built-in Low-Pass filtering mechanism (we call it LP-ReLU). We further enhance LP-ReLU's effectivenes through [DCT augmentation](https://ieeexplore.ieee.org/abstract/document/8803787). Find our paper pre-print [here](https://arxiv.org/abs/2007.09453).
 
 **Different activation functions and their derivatives. The proposed Low-Pass ReLU or LP-ReLU is highlighted inside the box:**
 LP-ReLU is identical to ReLU upto a certain X value and scaled down afterwards (2 variants available). LP-ReLU has a derivative almost everywhere.
@@ -46,5 +46,8 @@ CIFAR-10-P and Tiny ImageNet-P
 - Test_severity_level.m is used for evaluating a trained model.
 - Corruption evaluation Datasets can be found [here](https://zenodo.org/record/2535967#.XxPOtCgza70) and perturbation stability datasets can be found [here](https://zenodo.org/record/2469796#.XxPPFigza70).
 - LeNet_only_2FC.m and only2FC.m are used for feature and decision space visualization.
+
+# Read our paper pre-print
+- Click [here](https://arxiv.org/abs/2007.09453).
 
 # Cite this work
