@@ -15,7 +15,7 @@ classdef LPrelu_1_Layer < nnet.layer.Layer
         end
         
         function Z = predict(layer, X)
-            Z =   (0 < X & X <= layer.Cut).*X + (layer.Cut < X).*(layer.Cut + 0.05.*X);
+            Z =   (0 < X & X <= layer.Cut).*X + (layer.Cut < X).*(layer.Cut + 0.05.*(X - layer.Cut));
         end
         
     end
