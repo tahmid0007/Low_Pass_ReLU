@@ -1,6 +1,7 @@
 classdef LPrelu_1_Layer < nnet.layer.Layer
     properties (Learnable)
         Cut
+        Alpha
     end
     methods
         function layer = LPrelu_1_Layer(numChannels, name)
@@ -12,6 +13,7 @@ classdef LPrelu_1_Layer < nnet.layer.Layer
             layer.Description = "LPrelu_1_Layer with " + numChannels + " channels";
             
             layer.Cut = 10;
+            layer.Alpha = .05;
         end
         
         function Z = predict(layer, X)
