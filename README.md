@@ -1,4 +1,7 @@
-# [Robust Image Classification Using A Low-Pass Activation Function and DCT Augmentation](https://arxiv.org/abs/2007.09453)
+# Read our accepted paper in IEEE ACCESS
+- Click [here](https://ieeexplore.ieee.org/document/9455411).
+
+# [Robust Image Classification Using A Low-Pass Activation Function and DCT Augmentation](https://ieeexplore.ieee.org/document/9455411)
 By far, ReLU is the most widely used Activation Function in deep Convolutional Neural Networks. ReLU is simple to implement and enables deep networks to converge to training data. However, ReLU-based networks do not exhibit satisfactory robustness against corrupted data, e.g., an image with negligible noise or blur is often misclassified. Common signal processing fix to data corruption is filtering. Inspired from this, we update the existing ReLU by incorporating a built-in Low-Pass filtering mechanism (we call it LP-ReLU). We further enhance LP-ReLU's effectivenes through [DCT augmentation](https://ieeexplore.ieee.org/abstract/document/8803787). Find our paper pre-print [here](https://arxiv.org/abs/2007.09453).
 
 **Different activation functions and their derivatives. The proposed Low-Pass ReLU or LP-ReLU is highlighted inside the box:**
@@ -47,15 +50,13 @@ CIFAR-10-P and Tiny ImageNet-P
 - Corruption evaluation Datasets can be found [here](https://zenodo.org/record/2535967#.XxPOtCgza70) and perturbation stability datasets can be found [here](https://zenodo.org/record/2469796#.XxPPFigza70).
 - LeNet_only_2FC.m and only2FC.m are used for feature and decision space visualization.
 
-# Read our paper pre-print
-- Click [here](https://arxiv.org/abs/2007.09453).
-
 # Cite this work
-@misc{hossain2020robust,\
-    title={Robust Image Classification Using A Low-Pass Activation Function and DCT Augmentation},\
-    author={Md Tahmid Hossain and Shyh Wei Teng and Ferdous Sohel and Guojun Lu},\
-    year={2020},\
-    eprint={2007.09453},\
-    archivePrefix={arXiv},\
-    primaryClass={cs.CV}\
-}
+@ARTICLE{9455411,\
+author={Hossain, Md Tahmid and Teng, Shyh Wei and Sohel, Ferdous and Lu, Guojun},  \
+journal={IEEE Access},   \
+title={Robust Image Classification Using a Low-Pass Activation Function and DCT Augmentation},   \
+year={2021},  \
+volume={9},  \
+number={},  \
+pages={86460-86474},  \
+doi={10.1109/ACCESS.2021.3089598}}
